@@ -6,8 +6,10 @@ main:
   nop
   bl init
 
+  @ triangle wave
+
   @ customize the wave with r5 and r6.
-  @ use a frequency of 440Hz,
+  @ use a frequency of 440Hz (note A),
   @ and amplitude/2 of 0x7fff for full dynamic range (max volume)
 
   @ r5 stores the frequency (Hz)
@@ -29,11 +31,13 @@ main:
   mov r0, #0
   mov r1, #0
 
+  nop
+
   @ use r4 for current sample, moved to r0 before samples are played
-.size main, .-main
 
 @ first half of period, r6 (upper) to r7 (lower)
-decend_start:  
+decend_start:
+  nop
   mov r4, r6
 decend_loop:
   subs r4, r8
@@ -47,8 +51,8 @@ decend_skip:
 
 @ second half of period, r7 (lower) to r6 (upper)
 ascend_start:
+  nop
   mov r4, r7
-@0x7fff to 0x8000
 ascend_loop:
   adds r4, r8
   bmi ascend_skip @ only make check when above 0
