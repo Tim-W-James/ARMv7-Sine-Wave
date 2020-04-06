@@ -69,7 +69,7 @@ continueA:
 
   @ use r4 to measure time (x axis), increments every sample, % r7
 
-@ first half of period, positive values peaking at r6
+@ first half of period, positive values, peak at r6
 upper_start:  
   nop
   mov r4, #0
