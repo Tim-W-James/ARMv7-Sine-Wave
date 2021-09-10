@@ -18,7 +18,7 @@
     <br />
     This project was created during my university studies at <b>ANU</b> in <b>2020</b> and has been transferred from the ANU GitLab server.
     <br />
-    <a href="design-document.pdf"><strong>Read the design doc »</strong></a>
+    <a href="https://github.com/Tim-W-James/ARMv7-Sine-Wave/blob/part-2/design-document.pdf"><strong>Read the design doc »</strong></a>
     <br />
 <!--     <a href="https://github.com/Tim-W-James/repo_name">View Demo</a> -->
 <!--     ·
@@ -56,7 +56,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-ARMv7 assembly program that creates a sine wave.
+ARMv7 assembly program that creates a sine wave. Read the [design doc](https://github.com/Tim-W-James/ARMv7-Sine-Wave/blob/part-2/design-document.pdf) for implementation details.
 
 <!-- ### Features
 
